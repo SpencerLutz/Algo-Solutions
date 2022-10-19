@@ -5,3 +5,6 @@ LeetCode is a platform designed for programmers to improve their skill with algo
 ## Problem Categories
 ### Greedy
 - [1775 - Equal Sum Arrays With Minimum Number of Operations](1775)
+
+### Search
+- [162 - Find Peak Element](0162)
