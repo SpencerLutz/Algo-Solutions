@@ -46,9 +46,14 @@ cnt = count[k]
 ```
 Much simpler. Now that we have a fast and efficient way to access our counts, how do we use this?
 
-Like in Two Sum, we need to loop through the values we are given and check for 'complements' in our hash map. Our complement in this case is any number $n$ such that $$(n + s) \mod 60 = 0 $$
+Like in Two Sum, we need to loop through the values we are given and check for 'complements' in our hash map. Our complement in this case is any number $n$ such that 
+
+$$(n + s) \mod 60 = 0 $$
+
 $$ \Rightarrow ((n \mod 60) + (s \mod 60)) \mod 60 = 0$$
+
 $$ \Rightarrow n \mod 60 = -s \mod 60 $$
+
 `count[k]` stores how many times we have seen `k` in the list so far. Thus we can see how many times a complement for `s` has been seen with `count[-s % 60]`. Each complement `n` represents a valid pair `(s, n)` such that `s + n % 60 == 0`, so we should add this count to our total.
 ```python
 for s in time:
