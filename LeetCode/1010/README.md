@@ -5,7 +5,15 @@
 ## Hints
 - <details>
     <summary>Hint 1</summary>
-    
+    This is very similar to Two Sum.
+  </details>
+- <details>
+    <summary>Hint 2</summary>
+    We only need to consider each value modulo 60.
+  </details>
+- <details>
+    <summary>Hint 3</summary>
+    What does it mean mathematically for 2 song lengths <code>a</code> and <code>b</code> to form a pair? Can we find <code>b</code> in terms of <code>a</code> and use this to check for pairs more efficiently?
   </details>
 
 ## Solution
