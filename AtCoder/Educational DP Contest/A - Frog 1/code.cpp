@@ -5,24 +5,19 @@ int main() {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
 
-	int mx = 1e5 + 1;
-
-	int dp[mx], h[mx];
-	int n, f, k; cin >> n >> f >> k;
+	int dp[3], h[3];
+	int N; cin >> N >> h[0] >> h[1];
 
 	dp[0] = 0; 
-    h[0] = f;
-	dp[1] = abs(f - k); 
-    h[1] = k;
+	dp[1] = abs(h[0] - h[1]);
 
-	for (int i = 2; i < n; i++) {
-		int w; cin >> w;
-		h[i] = w;
-		dp[i] = min(
-			dp[i - 1] + abs(h[i - 1] - w),
-			dp[i - 2] + abs(h[i - 2] - w)
+	for (int i = 2; i < N; i++) {
+		cin >> h[i % 3];
+		dp[i % 3] = min(
+			dp[(i - 1) % 3] + abs(h[(i - 1) % 3] - h[i % 3]),
+			dp[(i - 2) % 3] + abs(h[(i - 2) % 3] - h[i % 3])
 		);
 	}
     
-	cout << dp[n-1];
+	cout << dp[(N - 1) % 3];
 }
