@@ -80,7 +80,7 @@ dp[i % 3] = min(
 	dp[(i - 2) % 3] + abs(h[(i - 2) % 3] - h[i % 3])
 );
 ```
-I like to think of this method as laying repeating windows of length 3 along the original $10^5$-long array. We only ever need to access data in the currrent window $(w_c)$ and the window behind it $(w_p)$, and we will never have to access both $w_c[i]$ and $w_p[i]$, as $w_p[i]$ is more than 2 indices behind $w_c[i]$. Thus we can take the end of $w_p$ (the data we need to access) and stick it to the end of $w_c$ (in place of the data we have not reached). Now the value 2 indices behind $i$ is just $i + 1$, or $(i - 2) \mod 3$. 
+I like to think of this method as laying repeating windows of length 3 along the original $10^5$-long array. At any one iteration, we only ever need to access data in the currrent window $(w_c)$ and the window behind it $(w_p)$, and we will never have to access both $w_c[i]$ and $w_p[i]$, as $w_p[i]$ is more than 2 indices behind $w_c[i]$. Thus we can take the end of $w_p$ (the data we need to access) and stick it to the end of $w_c$ (in place of the data we have not reached). Now the value 2 indices behind $i$ is just $i + 1$, or $(i - 2) \mod 3$. 
 
 (I wish I could visualize this. If this doesn't make sense, sorry :/)
 
