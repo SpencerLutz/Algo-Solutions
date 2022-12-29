@@ -13,7 +13,7 @@ int main() {
 	dp[0] = 0;
 	cin >> h[0];
 
-	for (int i = 0; i < N; i++) {
+	for (int i = 1; i < N; i++) {
 		cin >> h[i % M];
 		dp[i % M] = INF;
 		for (int j = max(0, i - K); j < i; j++) {
