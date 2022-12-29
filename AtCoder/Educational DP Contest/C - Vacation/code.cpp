@@ -5,16 +5,16 @@ int main() {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
 
-	int n; cin >> n;
-	int dp[n][3];
+	int N; cin >> N;
+	int dp[2][3];
 	cin >> dp[0][0] >> dp[0][1] >> dp[0][2];
 
-	for (int i = 1; i < n; i++) {
-		int h0, h1, h2; cin >> h0 >> h1 >> h2;
-		dp[i][0] = max(dp[i - 1][1], dp[i - 1][2]) + h0;
-		dp[i][1] = max(dp[i - 1][0], dp[i - 1][2]) + h1;
-		dp[i][2] = max(dp[i - 1][0], dp[i - 1][1]) + h2;
+	for (int i = 1; i < N; i++) {
+		int a, b, c; cin >> a >> b >> c;
+		dp[i % 2][0] = max(dp[(i - 1) % 2][1], dp[(i - 1) % 2][2]) + a;
+		dp[i % 2][1] = max(dp[(i - 1) % 2][0], dp[(i - 1) % 2][2]) + b;
+		dp[i % 2][2] = max(dp[(i - 1) % 2][0], dp[(i - 1) % 2][1]) + c;
 	}
 
-	cout << max(max(dp[n - 1][0], dp[n - 1][1]), dp[n - 1][2]);
+	cout << *max_element(dp[(N - 1) % 2], dp[(N - 1) % 2] + 3);
 }
