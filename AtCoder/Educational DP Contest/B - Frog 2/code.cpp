@@ -5,19 +5,21 @@ int main() {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
 
-	int n, k; cin >> n >> k;
-	const int s = k + 1;
-	const int mx = INT_MAX;
-	int dp[s], h[s];
+	int N, K; cin >> N >> K;
+	const int M = K + 1;
+	const int INF = INT_MAX;
+	int dp[M], h[M];
 
-	for (int i = 0; i < n; i++) {
-		int w; cin >> w;
-		h[i % s] = w;
-		dp[i % s] = i == 0 ? 0 : mx;
-		for (int j = max(0, i - k); j < i; j++) {
-            dp[i % s] = min(dp[i % s], dp[j % s] + abs(h[j % s]-w));
+	dp[0] = 0;
+	cin >> h[0];
+
+	for (int i = 0; i < N; i++) {
+		cin >> h[i % M];
+		dp[i % M] = INF;
+		for (int j = max(0, i - K); j < i; j++) {
+            dp[i % M] = min(dp[i % M], dp[j % M] + abs(h[i % M] - h[j % M]));
         }
 	}
 
-	cout << dp[(n - 1) % s];
+	cout << dp[(N - 1) % M];
 }
