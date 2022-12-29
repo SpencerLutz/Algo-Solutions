@@ -15,17 +15,16 @@
 Let $dp_i$ be the minimum possible total cost incurred before the frog reaches stone $i$. Thus, our solution (the minimum possible total cost incurred before the frog reaches stone N) is simply $dp_N$.
 
 ### Transition
-The cost $c_{ij}$ to reach stone $j$ from stone $i$ is $|h_j-h_i|$. The total cost to reach stone $j$ through stone $i$ is $c_{ij} + $ the minimum total cost to reach stone $i$ ($dp_i$). This becomes $|h_i-h_j| + dp_i$. For all $j \geq 2$, we have a choice between $i = j - 1$ or $i = j - 2$. We want to find the *minimum* possible cost, so we take the minimum of the two options to get
+The cost $c_{ij}$ to reach stone $j$ from stone $i$ is $|h_j-h_i|$. The total cost to reach stone $j$ through stone $i$ is $c_{ij}$ + the minimum total cost to reach stone $i$ $(dp_i)$. This becomes $|h_i-h_j| + dp_i$. For all $j \geq 2$, we have a choice between $i = j - 1$ or $i = j - 2$. We want to find the *minimum* possible cost, so we take the minimum of the two options to get
 
-$$ dp_j = \min(|h_j-h_{j-1}| + dp_{j-1}, \; |h_j-h_{j-2}| + dp_{j-2}) $$
+$$dp_j = \min(|h_j-h_{j-1}| + dp_{j-1}, |h_j-h_{j-2}| + dp_{j-2})$$
 
 We start on stone 1, so $dp_1 = 0$. 
 
 For $j = 2$, there is no $j-2$, so we just have $dp_2 = |h_2-h_1| + dp_1 = |h_2-h_1|$.
 
-
 ## Solution ([Code](code.cpp))
-*(Note that `dp[0]` $\equiv dp_1$, `h[0]` $\equiv h_1$.)*
+*(Note that* `dp[0]` $\equiv dp_1$, `h[0]` $\equiv h_1$.)
 
 We have $N \leq 10^5$, so we can create our `dp` and `h` arrays:
 ```cpp
@@ -81,7 +80,7 @@ dp[i % 3] = min(
 	dp[(i - 2) % 3] + abs(h[(i - 2) % 3] - h[i % 3])
 );
 ```
-I like to think of this method as laying repeating windows of length 3 along the original $10^5$-long array. We only ever need to access data in the currrent window ($w_c$) and the window behind it ($w_p$), and we will never have to access both $w_c[i]$ and $w_p[i]$, as $w_p[i]$ is more than 2 indices behind $w_c[i]$. Thus we can take the end of $w_p$ (the data we need to access) and stick it to the end of $w_c$ (in place of the data we have not reached). Now the value 2 indices behind $i$ is just $i + 1$, or $(i - 2) \mod 3$. 
+I like to think of this method as laying repeating windows of length 3 along the original $10^5$-long array. At any one iteration, we only ever need to access data in the currrent window $(w_c)$ and the window behind it $(w_p)$, and we will never have to access both $w_c[i]$ and $w_p[i]$, as $w_p[i]$ is more than 2 indices behind $w_c[i]$. Thus we can take the end of $w_p$ (the data we need to access) and stick it to the end of $w_c$ (in place of the data we have not reached). Now the value 2 indices behind $i$ is just $i + 1$, or $(i - 2) \mod 3$. 
 
 (I wish I could visualize this. If this doesn't make sense, sorry :/)
 
