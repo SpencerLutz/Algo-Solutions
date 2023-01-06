@@ -6,8 +6,10 @@ The explanations I have provided for these problems do require a basic understan
 
 I do refer to previous problems in some explanations, so if possible, make sure you understand a solution fully before you move on to the next problem.
 
+(*A * indicates I have written an explanation for this problem*)
+
 ## Problems
-- [A - Frog 1](A%20-%20Frog%201)
+- [A - Frog 1](A%20-%20Frog%201) *
 - [B - Frog 2](B%20-%20Frog%202)
 - [C - Vacation](C%20-%20Vacation)
 - [D - Knapsack 1](D%20-%20Knapsack%201)
@@ -16,4 +18,7 @@ I do refer to previous problems in some explanations, so if possible, make sure 
 - [G - Longest Path](G%20-%20Longest%20Path)
 - [H - Grid 1](H%20-%20Grid%201)
 - [I - Coins](I%20-%20Coins)
+- [J - Sushi](J%20-%20Sushi)
+- [K - Stones](K%20-%20Stones)
+- [L - Deque](L%20-%20Deque)
 - More coming...
