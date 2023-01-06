@@ -2,9 +2,11 @@
 
 [AtCoder](https://atcoder.jp/) is a Japanese programming contest website.
 
+(*A * indicates I have written an explanation for this problem*)
+
 ## Problem Categories
 ### Dynamic Programming
-- [Educational DP Contest](Educational%20DP%20Contest)
+- [Educational DP Contest](Educational%20DP%20Contest) *
 
 ### Game Theory
 - [DP K - Stones](Educational%20DP%20Contest/K%20-%20Stones/)
