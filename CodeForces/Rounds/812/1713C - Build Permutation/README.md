@@ -1,0 +1,1 @@
+# [1713C - Build Permutation](https://codeforces.com/problemset/problem/1713/C)

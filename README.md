@@ -5,5 +5,5 @@ This is a repository where I'll be posting the code for the competitive programm
 ### Problem Sources
 - [AtCoder](/AtCoder/) - 12 Solutions (1 Explanation)
 - [LeetCode](/LeetCode/) - 4 Solutions (4 Explanations)
-- [CodeForces](/CodeForces/) - 1 Solution (0 Explanations)
+- [CodeForces](/CodeForces/) - 2 Solutions (0 Explanations)
 - [Google](/Google/) - 0 Solutions (0 Explanations)
