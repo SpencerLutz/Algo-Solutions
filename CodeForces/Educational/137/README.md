@@ -5,5 +5,5 @@ Educational Codeforces Round 137 was a competition held on October 17, 2022. The
 (*A * indicates I have written an explanation for this problem*)
 
 ## Problems
-- [C - Save the Magazines](1743C%20-%20Save%20the%20Magazines)
+- [C - Save the Magazines](1743C%20-%20Save%20the%20Magazines) (1100)
 - More coming...
