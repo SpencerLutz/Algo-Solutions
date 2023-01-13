@@ -5,11 +5,11 @@
 ## Hints
 - <details>
     <summary>Hint 1</summary>
-    Instead of thinking about the problem as searching every possible pair for one that works, we can think about it as figuring out if a valid pair exists for each element <code>n</code> of <code>nums</code>.
+    Instead of thinking about the problem as searching every possible pair for one that works, we can think about it as figuring out if a valid pair exists for any element <code>n</code> of <code>nums</code>.
   </details>
 - <details>
     <summary>Hint 2</summary>
-    What data structure allows us to both check if an value is in <code>nums</code> and retrieve its index in <code>O(1)</code> time?
+    What data structure allows us to both check if a value is in <code>nums</code> and retrieve its index in <code>O(1)</code> time?
   </details>
 - <details>
     <summary>Hint 3</summary>
@@ -19,7 +19,7 @@
 ## Solution
 The naive solution to this problem would be to generate every possible pair with nested for loops, sum each pair, and return the one that equals `target`. This is theoretically very simple, but because we are manually checking every combination, of which there are $\frac{n(n-1)}{2}$ (if we properly avoid double counting), the resulting algorithm would be $O(n^2)$. We can do better.
 
-Instead of thinking about the problem as searching every pair for one that works, we can think about it as figuring out if a valid pair exists for each element `n` of `nums`. If we can determine whether or not a pair containing `n` exists in $O(1)$ time, checking this for every element of `nums` will yield an $O(n)$ algorithm, much faster than our naive approach.
+Instead of thinking about the problem as searching every pair for one that works, we can think about it as figuring out if a valid pair exists for any element `n` of `nums`. If we can determine whether or not a pair containing `n` exists in $O(1)$ time, checking this for every element of `nums` will yield an $O(n)$ algorithm, much faster than our naive approach.
 
 So given `n`, how can we check if a valid pair containing `n` exists? We can restate this question as finding a pair `(n, m)` such that `m` is in `nums` and `n + m == target`. Wait! This means `m = target - n`! So we already know what our pair is: `(n, target - n)`. We can find this second value (known as the 'complement' of `n`) in $O(1)$ time - it's just subtraction.
 
