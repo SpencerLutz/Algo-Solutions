@@ -1,0 +1,1 @@
+# [1775A1 - Gardener and the Capybaras (easy version)](https://codeforces.com/problemset/problem/1775/A1)
