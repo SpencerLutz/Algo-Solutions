@@ -1,0 +1,1 @@
+# [1775B - Gardener and the Array](https://codeforces.com/problemset/problem/1775/B)
