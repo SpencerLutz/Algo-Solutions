@@ -1,0 +1,1 @@
+# [1775C - Interesting Sequence](https://codeforces.com/problemset/problem/1775/C)
