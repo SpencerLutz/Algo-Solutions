@@ -12,6 +12,7 @@
 - [1775A1 - Gardener and the Capybaras (easy version)](1775/1775A1%20-%20Gardener%20and%20the%20Capybaras%20(easy%20version))
 
 ### Constructive Algorithms
+- [1783A - Make it Beautiful](1783/1783A%20-%20Make%20it%20Beautiful) (800)
 - [1775A2 - Gardener and the Capybaras (hard version)](1775/1775A2%20-%20Gardener%20and%20the%20Capybaras%20(hard%20version))
 - [1775B - Gardener and the Array](1775/1775B%20-%20Gardener%20and%20the%20Array)
 
@@ -27,6 +28,7 @@
 
 ### Math
 - [1766A - Extremely Round](1766/1766A%20-%20Extremely%20Round) (800)
+- [1783A - Make it Beautiful](1783/1783A%20-%20Make%20it%20Beautiful) (800)
 - [1766D - Lucky Chains](1766/1766D%20-%20Lucky%20Chains) (1600)
 
 ### Strings
@@ -34,4 +36,5 @@
 
 ### Other
 - [1766C - Hamiltonian Wall](1766/1766C%20-%20Hamiltonian%20Wall) (1300)
+
 
