@@ -13,7 +13,7 @@ int main() {
     while (t--) {
 		int m; cin >> m;
         char h;
-        rep(k, 0, 2) rep(i, 0, m) {
+        rep (k, 0, 2) rep (i, 0, m) {
             cin >> h;
             w[k][i] = (h == 'B');
         }
@@ -26,7 +26,7 @@ int main() {
         bool yes = true;
         bool r = false;
         int s = -1;
-        rep(i, 0, m) {
+        rep (i, 0, m) {
             if (r && s != 0 && !(w[0][i] && w[1][i])) {
                 if ((i - s) % 2 && w[0][s-1] == w[0][i] 
                         || !(i - s) % 2 && w[0][s-1] != w[0][i]) {
