@@ -1,6 +1,6 @@
-# [CodeForces](https://codeforces.com/)
+# [Codeforces](https://codeforces.com/)
 
-[CodeForces](https://codeforces.com/) is a Russian programming contest website that hosts programming competitions and online judging.
+[Codeforces](https://codeforces.com/) is a Russian programming contest website that hosts programming competitions and online judging.
 
 (*A * indicates I have written an explanation for this problem*)
 
