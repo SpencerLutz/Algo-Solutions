@@ -19,6 +19,9 @@
 - [1743C - Save the Magazines](1743/1743C%20-%20Save%20the%20Magazines/) (1100)
 - [1713C - Build Permutation](1713/1713C%20-%20Build%20Permutation/) (1200)
 
+### Greedy
+- [1783C - Yet Another Tournament](1783/1783C%20-%20Yet%20Another%20Tournament) (1700)
+
 ### Hashmap
 - [1775B - Gardener and the Array](1775/1775B%20-%20Gardener%20and%20the%20Array)
 
@@ -31,3 +34,4 @@
 
 ### Other
 - [1766C - Hamiltonian Wall](1766/1766C%20-%20Hamiltonian%20Wall) (1300)
+
