@@ -11,8 +11,8 @@ int main() {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
 
-    rep(i, 0, mx) f[i] = i;
-    rep(i, 2, mx) if (f[i] == i)
+    rep (i, 0, mx) f[i] = i;
+    rep (i, 2, mx) if (f[i] == i)
         for (int d = i * 2; d < mx; d += i) f[d] = i;
 
 	int t; cin >> t;
