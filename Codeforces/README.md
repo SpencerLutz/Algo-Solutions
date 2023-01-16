@@ -22,3 +22,12 @@
 ### Hashmap
 - [1775B - Gardener and the Array](1775/1775B%20-%20Gardener%20and%20the%20Array)
 
+### Math
+- [1766A - Extremely Round](1766/1766A%20-%20Extremely%20Round) (800)
+- [1766D - Lucky Chains](1766/1766D%20-%20Lucky%20Chains) (1600)
+
+### Strings
+- [1766B - Notepad#](1766/1766B%20-%20Notepad%23) (1000)
+
+### Other
+- [1766C - Hamiltonian Wall](1766/1766C%20-%20Hamiltonian%20Wall) (1300)
