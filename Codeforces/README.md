@@ -6,16 +6,16 @@
 
 ## Problem Categories
 ### Bit Manipulation
-- [1775C - Interesting Sequence](1775/1775C%20-%20Interesting%20Sequence)
+- [1775C - Interesting Sequence](1775/1775C%20-%20Interesting%20Sequence) (1600)
 
 ### Brute Force
-- [1775A1 - Gardener and the Capybaras (easy version)](1775/1775A1%20-%20Gardener%20and%20the%20Capybaras%20(easy%20version))
+- [1775A1 - Gardener and the Capybaras (easy version)](1775/1775A1%20-%20Gardener%20and%20the%20Capybaras%20(easy%20version)) (800)
 
 ### Constructive Algorithms
 - [1783A - Make it Beautiful](1783/1783A%20-%20Make%20it%20Beautiful) (800)
 - [1783B - Matrix of Differences](1783/1783B%20-%20Matrix%20of%20Differences) (1100)
-- [1775A2 - Gardener and the Capybaras (hard version)](1775/1775A2%20-%20Gardener%20and%20the%20Capybaras%20(hard%20version))
-- [1775B - Gardener and the Array](1775/1775B%20-%20Gardener%20and%20the%20Array)
+- [1775A2 - Gardener and the Capybaras (hard version)](1775/1775A2%20-%20Gardener%20and%20the%20Capybaras%20(hard%20version)) (900)
+- [1775B - Gardener and the Array](1775/1775B%20-%20Gardener%20and%20the%20Array) (1300)
 
 ### Dynamic Programming
 - [1743C - Save the Magazines](1743/1743C%20-%20Save%20the%20Magazines/) (1100)
@@ -25,7 +25,7 @@
 - [1783C - Yet Another Tournament](1783/1783C%20-%20Yet%20Another%20Tournament) (1700)
 
 ### Hashmap
-- [1775B - Gardener and the Array](1775/1775B%20-%20Gardener%20and%20the%20Array)
+- [1775B - Gardener and the Array](1775/1775B%20-%20Gardener%20and%20the%20Array) (1300)
 
 ### Math
 - [1766A - Extremely Round](1766/1766A%20-%20Extremely%20Round) (800)
