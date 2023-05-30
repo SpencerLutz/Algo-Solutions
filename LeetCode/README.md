@@ -7,11 +7,11 @@ I typically answer LeetCode problems with Python. This is primarily due to its s
 ## Problem Categories
 
 ### Greedy
-- [1775 - Equal Sum Arrays With Minimum Number of Operations](1775)
+- [1775 - Equal Sum Arrays With Minimum Number of Operations](1775%20-%20Equal%20Sum%20Arrays%20With%20Minimum%20Number%20of%20Operations)
 
 ### Hash
-- [1 - Two Sum](0001)
-- [1010 - Pairs of Songs With Total Durations Divisible by 60](1010)
+- [1 - Two Sum](0001%20-%20Two%20Sum)
+- [1010 - Pairs of Songs With Total Durations Divisible by 60](1010%20-%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060)
 
 ### Search
-- [162 - Find Peak Element](0162)
+- [162 - Find Peak Element](0162%20-%20Find%20Peak%20Element)
