@@ -3,10 +3,10 @@
 using namespace std;
 
 int main() {
-	ios::sync_with_stdio(0);
-	cin.tie(0);
+    ios::sync_with_stdio(0);
+    cin.tie(0);
 
-	long long t, x, y, a; cin >> t;
+    long long t, x, y, a; cin >> t;
     while (t--) {
         cin >> y >> x;
         a = max(x, y);
