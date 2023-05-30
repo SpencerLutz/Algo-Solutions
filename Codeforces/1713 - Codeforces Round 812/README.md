@@ -1,4 +1,4 @@
-# [Codeforces Round 812](https://codeforces.com/contest/1713)
+# [1713 - Codeforces Round 812](https://codeforces.com/contest/1713)
 
 Codeforces Round 812 was a competition held on August 6, 2022. The competition was rated for Division 2 and consisted of 6 problems.
 

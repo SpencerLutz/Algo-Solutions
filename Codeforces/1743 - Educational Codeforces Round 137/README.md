@@ -1,4 +1,4 @@
-# [Educational Codeforces Round 137](https://codeforces.com/contest/1743)
+# [1743 - Educational Codeforces Round 137](https://codeforces.com/contest/1743)
 
 Educational Codeforces Round 137 was a competition held on October 17, 2022. The competition was rated for Division 2 and consisted of 7 problems.
 
