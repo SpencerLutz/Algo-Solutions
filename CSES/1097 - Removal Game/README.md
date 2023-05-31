@@ -1,0 +1,1 @@
+# [1097 - Removal Game](https://cses.fi/problemset/task/1097)
