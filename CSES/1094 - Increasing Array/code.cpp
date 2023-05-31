@@ -3,10 +3,10 @@
 using namespace std;
 
 int main() {
-	ios::sync_with_stdio(0);
-	cin.tie(0);
+    ios::sync_with_stdio(0);
+    cin.tie(0);
 
-	long long n, pl, w, t = 0; cin >> n >> pl;
+    long long n, pl, w, t = 0; cin >> n >> pl;
     while (--n) {
         cin >> w;
         if (w >= pl) pl = w;
