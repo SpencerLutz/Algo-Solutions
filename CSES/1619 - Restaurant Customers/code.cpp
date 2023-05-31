@@ -14,7 +14,7 @@ int main() {
     int n; cin >> n;
     vi a(n);
     vi d(n);
-    rep(i,0,n) cin >> a[i] >> d[i];
+    rep (i,0,n) cin >> a[i] >> d[i];
     sort(all(a));
     sort(all(d));
     int i = 0, j = 0, total = 0, best = 0;

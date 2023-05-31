@@ -12,10 +12,10 @@ int main() {
 
     int n; cin >> n;
     vector<pii> t(n);
-    rep(i,0,n) cin >> t[i].second >> t[i].first;
+    rep (i,0,n) cin >> t[i].second >> t[i].first;
     sort(all(t));
     int ce = 0, ans = 0;
-    trav(p, t) if (p.second >= ce) {
+    trav (p, t) if (p.second >= ce) {
         ans++;
         ce = p.first;
     }
