@@ -1,0 +1,1 @@
+# [1745 - Money Sums](https://cses.fi/problemset/task/1745)
